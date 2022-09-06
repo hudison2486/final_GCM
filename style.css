@@ -1,7 +1,7 @@
-body {
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    height: 5000px;
 }
 
 nav {
@@ -9,25 +9,33 @@ nav {
     overflow: hidden;
     position: fixed;
     width: 100%;
+    height: 55px;
 }
 
-nav .logo{
-    color: #fff;
+nav .logo {
+    font-size: 25px;
+    background-color: rgb(66, 66, 66);
+    color: rgb(161, 46, 0);
     float: left;
     display: block;
     padding: 14px 16px;
-}
+} 
 
-nav a{
+nav a {
     color: #fff;
     float: right;
     text-decoration: none;
     display: block;
     padding: 14px 16px;
+
 }
 
 nav a:hover {
     transition: 1s;
-    background-color: rgb(204, 204, 204);
+    background-color: white;
     color: black;
+}
+
+#main {
+    background-color: rgb(218, 218, 218);
 }
