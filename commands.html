@@ -18,10 +18,82 @@
             
         </nav>
     </header>
+    <br><br><br><br>
+    <div id="main">
 
-    <div class="main">
+        <p><h1>1 - git init</h1><br><br>
+            Esse é o comando que você irá utilizar para criar um novo projeto de git. O comando irá 
+            criar um repositório novo em branco e, a partir daí, será possível armazenar seu código fonte,
+             alterar, salvaguardar alterações etc.<br><br>
+            
+            Exemplo:<br><br>
+            
+            <b>$ git init</b><br><br>
+            
+            Se você já possui um repositório anterior ou deseja criar um repositório com um nome em específico
+            , você pode passar o nome como parâmetro do comando:
+            
+           <b> $ git init  &lt;O nome do seu repositório&gt;</p></b>
 
-        
+           <br><br>
+
+           <p><h1>2 - git clone</h1><br><br>
+            Esse comando Git cria uma cópia exata de um repositório já existente.<br><br>
+            
+            Então… quando usar git init e quando usar git clone? O git clone é mais avançado, 
+            uma vez que ele mesmo executa um comando git init internamente. Além disso, ele verifica
+             todo o conteúdo do projeto.<br><br>
+            
+            Exemplo:<br><br>
+            
+            <b>git clone &lt;URL do seu projeto&gt;</b></p><br><br><br>
+
+            <p><h1>3 - git add</h1><br><br>
+                
+                Esse comando Git adiciona os arquivos especificados de código ao seu repositório,
+                 sejam arquivos novos ou arquivos anteriores que foram alterados. Oferece diferentes
+                  possibilidades de sintaxe.<br><br><br>
+
+                Exemplo:<br><br>
+                
+                <b>$ git add seu_arquivo</b> (esse comando irá adicionar o arquivo em específico ao repositório)
+                <br><br>
+                
+                <b>$ git add *</b> (esse comando irá adicionar todos os arquivos novos e/ou modificados ao repositório)</p>
+
+                <br><br><br>
+
+                <p><h1>4 - git commit</h1><br><br>
+                    É fundamental se estabelecer uma diferença entre git add e git commit:<br><br>
+                    
+                     - git add adiciona seus arquivos modificados à fila para serem submetidos a um
+                      commit posteriormente. Os arquivos não passaram por um commit.<br><br>
+                     - O git commit executa o commit dos arquivos que foram adicionados e cria uma nova revisão
+                      com um log. Por outro lado, se você não adicionar nenhum arquivo, o git não fará o
+                       commit de nada.
+                       <br><br>
+                    
+                    Também é possível adicionar uma mensagem para a execução de um commit. Exemplo: <b>$ git commit -a.</b>
+                    <br><br>
+                    
+                    <b>$ git commit -m “seu comentário”</b></p>
+
+                    <br><br><br>
+
+                    <p><h1>5 - git branch</h1><br><br>
+                        É comum na maior parte do tempo possuir múltiplas variações em seu repositório Git,
+                         chamadas de branches (“ramificações”). A grosso modo, um branch é um caminho 
+                         independente de desenvolvimento, uma alternativa.<br><br>
+                        
+                        A princípio pode parecer fácil se perder em diversos caminhos, mas o comando git branch facilita o gerenciamento de tudo isso. Com diferentes parâmetros, é possível listar, criar ou apagar os branches.
+                        
+                        Exemplos:
+                        
+                        $ git branch (lista todas as ramificações)
+                        
+                        $ git branch <nome_do_branch> (cria um branch com o nome especificado)
+                        
+                        $ git branch -d <nome_do_branch> (deleta o branch com o nome especificado)</p>
     </div>
 
 </body>
