@@ -53,3 +53,8 @@ div .img-creator-git {
 .about {
     font-size: 35px;
 }
+
+#principal {
+    text-align: center;
+    text-decoration: none;
+}
