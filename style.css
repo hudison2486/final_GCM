@@ -55,6 +55,11 @@ div .img-creator-git {
 }
 
 #principal {
+    background-color: grey;
     text-align: center;
+}
+
+#principal a {
+    background-color: green;
     text-decoration: none;
 }
